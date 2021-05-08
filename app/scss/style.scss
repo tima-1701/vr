@@ -1,0 +1,57 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+.header{
+    padding: 36px 0 51px;
+    background-color: #4B507E;
+    background-image: url(../images/background.png);
+    min-height: 920px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.header__top-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    width: 212px;
+    height: 56px;
+}
+.phone{
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    margin-right: 51px;
+}
+.header-btn{
+    margin-right: 40px;
+}
+.header__content-inner{
+    display: flex;
+}
+.header__content{
+    margin-top: 250px;
+    margin-left: 44px;
+    color: #fff;
+    width: 50%;
+}
+.header__content-title{
+    font-size: 71px;
+    font-weight: 400;
+    font-family: 'Neue Machina';
+}
+
+
+
+
+
+
+
+
+
+.header__img-vr{
+    width: 50%;
+}
