@@ -31,6 +31,7 @@
 }
 .header__content-inner{
     display: flex;
+    align-items: center;
 }
 .header__content{
     margin-top: 250px;
@@ -42,16 +43,39 @@
     font-size: 71px;
     font-weight: 400;
     font-family: 'Neue Machina';
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header__content-title span{
+    margin-left: 50px;
+    font-weight: 800;
+}
+.header__content-subtitle{
+    max-width: 478px;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 270px;
+    margin-left: 49px;
 }
 
-
-
-
-
-
-
-
-
+.header__img-wrap{
+    max-width: 615px;
+    height: 490px;
+    margin-left: 96px;
+}
 .header__img-vr{
-    width: 50%;
+    max-width: 100%;
+}
+.header__content-text{
+    font-weight: 800;
+    margin-left: 15px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.text-item{
+    color: #1E4FC6;
+    font-size: 22px;
+    padding-right: 16px;
 }
